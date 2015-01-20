@@ -1,0 +1,15 @@
+lw Opcode 100011 #tem o imdiato de 16 bits //Function 000001
+
+sw Opcode 101011 #tem o imdiato de 16 bits //Function 000000
+
+add Opcode 000000 Function 100000
+
+sub Opcode 000000 Function 100010
+
+and Opcode 000000 Function 100100
+
+or Opcode 000000 Function 100101
+
+slt Opcode 000000 Function 101010
+
+chant de todos e zero

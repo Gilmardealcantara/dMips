@@ -1,0 +1,2497 @@
+
+	[01;30m Instrucão	slt $s1,$t2,$t0 
+(B[m
+			[01;30m <--------------------Saida------------------>
+(B[m	[01;30m PC		101
+(B[m	[02;34m I[31-0]	00000001000010101000100000101010
+(B[m	[02;34m I[31-26]	000000
+(B[m	[02;34m I[25-21]	01010
+(B[m	[02;34m I[20-16]	01000
+(B[m	[02;34m I[15-11]	10001
+(B[m	[02;34m I[15-0]	00000101010
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		10
+(B[m	[02;32m AluOperation	111
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	00000000000000000000000001111100
+(B[m	[02;34m Read_data2	00000000000000000000000001111100
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	00000000000000000000000000000000
+(B[m	[02;34m AluResult	00000000000000000000000000000000
+(B[mRead_data1 = 00000000000000000000000000000011
+Read_data2 =
+Read_data=00000000000000000000000001111100
+Read_data1 = 00000000000000000000000000000011
+Read_data2 =
+Read_data1 = 00000000000000000000000000000011
+Read_data2 =
+
+	[01;30m Instrucão	lw $t0,12($t1) 
+(B[m
+			[01;30m <--------------------Saida------------------>
+(B[m	[01;30m PC		1
+(B[m	[02;34m I[31-0]	10001101001010000000000000001100
+(B[m	[02;34m I[31-26]	100011
+(B[m	[02;34m I[25-21]	01001
+(B[m	[02;34m I[20-16]	01000
+(B[m	[02;34m I[15-11]	00000
+(B[m	[02;34m I[15-0]	0000000000001100
+(B[m	[02;32m RedDst		1
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	1
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	1
+(B[m	[02;32m AluOp		00
+(B[m	[02;32m AluOperation	010
+(B[m	[02;32m AluSrc		1
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	00000000000000000000000000000011
+(B[m	[02;34m Read_data2	
+(B[m	[02;34m Read_data	00000000000000000000000001111100
+(B[m	[02;34m Write_Data	00000000000000000000000001111100
+(B[m	[02;34m AluResult	00000000000000010000000000001111
+(B[mRead_data1 = 00000000000000000000000000000000
+Read_data2 = 00000000000000000000000001111100
+Read_data1 = 00000000000000000000000000000000
+Read_data2 = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Read_data1 = 00000000000000000000000000000000
+Read_data2 = 00000000000000000000000001111100
+
+	[01;30m Instrucão	add $t0,$s2,$t0 
+(B[m
+			[01;30m <--------------------Saida------------------>
+(B[m	[01;30m PC		10
+(B[m	[02;34m I[31-0]	00000001000100100100000000100000
+(B[m	[02;34m I[31-26]	000000
+(B[m	[02;34m I[25-21]	10010
+(B[m	[02;34m I[20-16]	01000
+(B[m	[02;34m I[15-11]	01000
+(B[m	[02;34m I[15-0]	00000100000
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		10
+(B[m	[02;32m AluOperation	010
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	00000000000000000000000000000000
+(B[m	[02;34m Read_data2	00000000000000000000000001111100
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	00000000000000000000000001111100
+(B[m	[02;34m AluResult	00000000000000000000000001111100
+(B[mRead_data1 = 00000000000000000000000001111100
+Read_data2 = 00000000000000000000000000000000
+Read_data1 = 00000000000000000000000001111100
+Read_data2 = 00000000000000000000000000000000
+Read_data1 = 00000000000000000000000001111100
+Read_data2 = 00000000000000000000000000000000
+
+	[01;30m Instrucão	sub $t2,$t0,$s1 
+(B[m
+			[01;30m <--------------------Saida------------------>
+(B[m	[01;30m PC		11
+(B[m	[02;34m I[31-0]	00000010001010000101000000100010
+(B[m	[02;34m I[31-26]	000000
+(B[m	[02;34m I[25-21]	01000
+(B[m	[02;34m I[20-16]	10001
+(B[m	[02;34m I[15-11]	01010
+(B[m	[02;34m I[15-0]	00000100010
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		10
+(B[m	[02;32m AluOperation	110
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	00000000000000000000000001111100
+(B[m	[02;34m Read_data2	00000000000000000000000000000000
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	00000000000000000000000001111100
+(B[m	[02;34m AluResult	00000000000000000000000001111100
+(B[mRead_data1 = 00000000000000000000000000000011
+Read_data2 =
+Read_data1 = 00000000000000000000000000000011
+Read_data2 =
+Read_data1 = 00000000000000000000000000000011
+Read_data2 =
+
+	[01;30m Instrucão	sw $t2,12($t1) 
+(B[m
+			[01;30m <--------------------Saida------------------>
+(B[m	[01;30m PC		100
+(B[m	[02;34m I[31-0]	10101101001010100000000000001100
+(B[m	[02;34m I[31-26]	101011
+(B[m	[02;34m I[25-21]	01001
+(B[m	[02;34m I[20-16]	01010
+(B[m	[02;34m I[15-11]	00000
+(B[m	[02;34m I[15-0]	0000000000001100
+(B[m	[02;32m RedDst		1
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	1
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		00
+(B[m	[02;32m AluOperation	010
+(B[m	[02;32m AluSrc		1
+(B[m	[02;32m RegWrite	0
+(B[m	[02;34m Read_data1	00000000000000000000000000000011
+(B[m	[02;34m Read_data2	
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m AluResult	00000000000000010000000000001111
+(B[mRead_data1 = 00000000000000000000000001111100
+Read_data2 = 00000000000000000000000001111100
+Read_data1 = 00000000000000000000000001111100
+Read_data2 = 00000000000000000000000001111100
+Read_data1 = 00000000000000000000000001111100
+Read_data2 = 00000000000000000000000001111100
+
+	[01;30m Instrucão	slt $s1,$t2,$t0 
+(B[m
+			[01;30m <--------------------Saida------------------>
+(B[m	[01;30m PC		101
+(B[m	[02;34m I[31-0]	00000001000010101000100000101010
+(B[m	[02;34m I[31-26]	000000
+(B[m	[02;34m I[25-21]	01010
+(B[m	[02;34m I[20-16]	01000
+(B[m	[02;34m I[15-11]	10001
+(B[m	[02;34m I[15-0]	00000101010
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		10
+(B[m	[02;32m AluOperation	111
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	00000000000000000000000001111100
+(B[m	[02;34m Read_data2	00000000000000000000000001111100
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	00000000000000000000000000000000
+(B[m	[02;34m AluResult	00000000000000000000000000000000
+(B[m
+	[01;30m Instrucão	lw $t0,12($t1) 
+(B[m
+			[01;30m <--------------------Saida------------------>
+(B[m	[01;30m PC		1
+(B[m	[02;34m I[31-0]	10001101001010000000000000001100
+(B[m	[02;34m I[31-26]	100011
+(B[m	[02;34m I[25-21]	01001
+(B[m	[02;34m I[20-16]	01000
+(B[m	[02;34m I[15-11]	00000
+(B[m	[02;34m I[15-0]	0000000000001100
+(B[m	[02;32m RedDst		1
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	1
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	1
+(B[m	[02;32m AluOp		00
+(B[m	[02;32m AluOperation	010
+(B[m	[02;32m AluSrc		1
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	00000000000000000000000000000011
+(B[m	[02;34m Read_data2	
+(B[m	[02;34m Read_data	00000000000000000000000001111100
+(B[m	[02;34m Write_Data	00000000000000000000000001111100
+(B[m	[02;34m AluResult	00000000000000010000000000001111
+(B[m
+	[01;30m Instrucão	add $t0,$s2,$t0 
+(B[m
+			[01;30m <--------------------Saida------------------>
+(B[m	[01;30m PC		10
+(B[m	[02;34m I[31-0]	00000001000100100100000000100000
+(B[m	[02;34m I[31-26]	000000
+(B[m	[02;34m I[25-21]	10010
+(B[m	[02;34m I[20-16]	01000
+(B[m	[02;34m I[15-11]	01000
+(B[m	[02;34m I[15-0]	00000100000
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		10
+(B[m	[02;32m AluOperation	010
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	00000000000000000000000000000000
+(B[m	[02;34m Read_data2	00000000000000000000000001111100
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	00000000000000000000000001111100
+(B[m	[02;34m AluResult	00000000000000000000000001111100
+(B[m
+	[01;30m Instrucão	sub $t2,$t0,$s1 
+(B[m
+			[01;30m <--------------------Saida------------------>
+(B[m	[01;30m PC		11
+(B[m	[02;34m I[31-0]	00000010001010000101000000100010
+(B[m	[02;34m I[31-26]	000000
+(B[m	[02;34m I[25-21]	01000
+(B[m	[02;34m I[20-16]	10001
+(B[m	[02;34m I[15-11]	01010
+(B[m	[02;34m I[15-0]	00000100010
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		10
+(B[m	[02;32m AluOperation	110
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	00000000000000000000000001111100
+(B[m	[02;34m Read_data2	00000000000000000000000000000000
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	00000000000000000000000001111100
+(B[m	[02;34m AluResult	00000000000000000000000001111100
+(B[m
+	[01;30m Instrucão	sw $t2,12($t1) 
+(B[m
+			[01;30m <--------------------Saida------------------>
+(B[m	[01;30m PC		100
+(B[m	[02;34m I[31-0]	10101101001010100000000000001100
+(B[m	[02;34m I[31-26]	101011
+(B[m	[02;34m I[25-21]	01001
+(B[m	[02;34m I[20-16]	01010
+(B[m	[02;34m I[15-11]	00000
+(B[m	[02;34m I[15-0]	0000000000001100
+(B[m	[02;32m RedDst		1
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	1
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		00
+(B[m	[02;32m AluOperation	010
+(B[m	[02;32m AluSrc		1
+(B[m	[02;32m RegWrite	0
+(B[m	[02;34m Read_data1	00000000000000000000000000000011
+(B[m	[02;34m Read_data2	
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m AluResult	00000000000000010000000000001111
+(B[m
+	[01;30m Instrucão	slt $s1,$t2,$t0 
+(B[m
+			[01;30m <--------------------Saida------------------>
+(B[m	[01;30m PC		101
+(B[m	[02;34m I[31-0]	00000001000010101000100000101010
+(B[m	[02;34m I[31-26]	000000
+(B[m	[02;34m I[25-21]	01010
+(B[m	[02;34m I[20-16]	01000
+(B[m	[02;34m I[15-11]	10001
+(B[m	[02;34m I[15-0]	00000101010
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		10
+(B[m	[02;32m AluOperation	111
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	00000000000000000000000001111100
+(B[m	[02;34m Read_data2	00000000000000000000000001111100
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	00000000000000000000000000000000
+(B[m	[02;34m AluResult	00000000000000000000000000000000
+(B[m
+	[01;30m Instrucão	lw $t0,12($t1) 
+(B[m			[01;30m -----------------####Saida###--------------->
+(B[m	[01;30m PC		1
+(B[m	[02;34m I[31-0]	10001101001010000000000000001100
+(B[m	[02;34m I[31-26]	100011
+(B[m	[02;34m I[25-21]	01001
+(B[m	[02;34m I[20-16]	01000
+(B[m	[02;34m I[15-11]	00000
+(B[m	[02;34m I[15-0]	0000000000001100
+(B[m	[02;32m RedDst		1
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	1
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	1
+(B[m	[02;32m AluOp		00
+(B[m	[02;32m AluOperation	010
+(B[m	[02;32m AluSrc		1
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	00000000000000000000000000000011
+(B[m	[02;34m Read_data2	
+(B[m	[02;34m Read_data	00000000000000000000000001111100
+(B[m	[02;34m Write_Data	00000000000000000000000001111100
+(B[m	[02;34m AluResult	00000000000000010000000000001111
+(B[m
+	[01;30m Instrucão	add $t0,$s2,$t0 
+(B[m			[01;30m -----------------####Saida###--------------->
+(B[m	[01;30m PC		10
+(B[m	[02;34m I[31-0]	00000001000100100100000000100000
+(B[m	[02;34m I[31-26]	000000
+(B[m	[02;34m I[25-21]	10010
+(B[m	[02;34m I[20-16]	01000
+(B[m	[02;34m I[15-11]	01000
+(B[m	[02;34m I[15-0]	00000100000
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		10
+(B[m	[02;32m AluOperation	010
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	00000000000000000000000000000000
+(B[m	[02;34m Read_data2	00000000000000000000000001111100
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	00000000000000000000000001111100
+(B[m	[02;34m AluResult	00000000000000000000000001111100
+(B[m
+	[01;30m Instrucão	sub $t2,$t0,$s1 
+(B[m			[01;30m -----------------####Saida###--------------->
+(B[m	[01;30m PC		11
+(B[m	[02;34m I[31-0]	00000010001010000101000000100010
+(B[m	[02;34m I[31-26]	000000
+(B[m	[02;34m I[25-21]	01000
+(B[m	[02;34m I[20-16]	10001
+(B[m	[02;34m I[15-11]	01010
+(B[m	[02;34m I[15-0]	00000100010
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		10
+(B[m	[02;32m AluOperation	110
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	00000000000000000000000001111100
+(B[m	[02;34m Read_data2	00000000000000000000000000000000
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	00000000000000000000000001111100
+(B[m	[02;34m AluResult	00000000000000000000000001111100
+(B[m
+	[01;30m Instrucão	sw $t2,12($t1) 
+(B[m			[01;30m -----------------####Saida###--------------->
+(B[m	[01;30m PC		100
+(B[m	[02;34m I[31-0]	10101101001010100000000000001100
+(B[m	[02;34m I[31-26]	101011
+(B[m	[02;34m I[25-21]	01001
+(B[m	[02;34m I[20-16]	01010
+(B[m	[02;34m I[15-11]	00000
+(B[m	[02;34m I[15-0]	0000000000001100
+(B[m	[02;32m RedDst		1
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	1
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		00
+(B[m	[02;32m AluOperation	010
+(B[m	[02;32m AluSrc		1
+(B[m	[02;32m RegWrite	0
+(B[m	[02;34m Read_data1	00000000000000000000000000000011
+(B[m	[02;34m Read_data2	
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m AluResult	00000000000000010000000000001111
+(B[m
+	[01;30m Instrucão	slt $s1,$t2,$t0 
+(B[m			[01;30m -----------------####Saida###--------------->
+(B[m	[01;30m PC		101
+(B[m	[02;34m I[31-0]	00000001000010101000100000101010
+(B[m	[02;34m I[31-26]	000000
+(B[m	[02;34m I[25-21]	01010
+(B[m	[02;34m I[20-16]	01000
+(B[m	[02;34m I[15-11]	10001
+(B[m	[02;34m I[15-0]	00000101010
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		10
+(B[m	[02;32m AluOperation	111
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	00000000000000000000000001111100
+(B[m	[02;34m Read_data2	00000000000000000000000001111100
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	00000000000000000000000000000000
+(B[m	[02;34m AluResult	00000000000000000000000000000000
+(B[m
+	[01;30m Instrucão	lw $t0,12($t1) 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		1
+(B[m	[02;34m I[31-0]	10001101001010000000000000001100
+(B[m	[02;34m I[31-26]	100011
+(B[m	[02;34m I[25-21]	01001
+(B[m	[02;34m I[20-16]	01000
+(B[m	[02;34m I[15-11]	00000
+(B[m	[02;34m I[15-0]	0000000000001100
+(B[m	[02;32m RedDst		1
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	1
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	1
+(B[m	[02;32m AluOp		00
+(B[m	[02;32m AluOperation	010
+(B[m	[02;32m AluSrc		1
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	00000000000000000000000000000011
+(B[m	[02;34m Read_data2	
+(B[m	[02;34m Read_data	00000000000000000000000001111100
+(B[m	[02;34m Write_Data	00000000000000000000000001111100
+(B[m	[02;34m AluResult	00000000000000010000000000001111
+(B[m
+	[01;30m Instrucão	add $t0,$s2,$t0 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		10
+(B[m	[02;34m I[31-0]	00000001000100100100000000100000
+(B[m	[02;34m I[31-26]	000000
+(B[m	[02;34m I[25-21]	10010
+(B[m	[02;34m I[20-16]	01000
+(B[m	[02;34m I[15-11]	01000
+(B[m	[02;34m I[15-0]	00000100000
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		10
+(B[m	[02;32m AluOperation	010
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	00000000000000000000000000000000
+(B[m	[02;34m Read_data2	00000000000000000000000001111100
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	00000000000000000000000001111100
+(B[m	[02;34m AluResult	00000000000000000000000001111100
+(B[m
+	[01;30m Instrucão	sub $t2,$t0,$s1 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		11
+(B[m	[02;34m I[31-0]	00000010001010000101000000100010
+(B[m	[02;34m I[31-26]	000000
+(B[m	[02;34m I[25-21]	01000
+(B[m	[02;34m I[20-16]	10001
+(B[m	[02;34m I[15-11]	01010
+(B[m	[02;34m I[15-0]	00000100010
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		10
+(B[m	[02;32m AluOperation	110
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	00000000000000000000000001111100
+(B[m	[02;34m Read_data2	00000000000000000000000000000000
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	00000000000000000000000001111100
+(B[m	[02;34m AluResult	00000000000000000000000001111100
+(B[m
+	[01;30m Instrucão	sw $t2,12($t1) 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		100
+(B[m	[02;34m I[31-0]	10101101001010100000000000001100
+(B[m	[02;34m I[31-26]	101011
+(B[m	[02;34m I[25-21]	01001
+(B[m	[02;34m I[20-16]	01010
+(B[m	[02;34m I[15-11]	00000
+(B[m	[02;34m I[15-0]	0000000000001100
+(B[m	[02;32m RedDst		1
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	1
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		00
+(B[m	[02;32m AluOperation	010
+(B[m	[02;32m AluSrc		1
+(B[m	[02;32m RegWrite	0
+(B[m	[02;34m Read_data1	00000000000000000000000000000011
+(B[m	[02;34m Read_data2	
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m AluResult	00000000000000010000000000001111
+(B[m
+	[01;30m Instrucão	slt $s1,$t2,$t0 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		101
+(B[m	[02;34m I[31-0]	00000001000010101000100000101010
+(B[m	[02;34m I[31-26]	000000
+(B[m	[02;34m I[25-21]	01010
+(B[m	[02;34m I[20-16]	01000
+(B[m	[02;34m I[15-11]	10001
+(B[m	[02;34m I[15-0]	00000101010
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		10
+(B[m	[02;32m AluOperation	111
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	00000000000000000000000001111100
+(B[m	[02;34m Read_data2	00000000000000000000000001111100
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	00000000000000000000000000000000
+(B[m	[02;34m AluResult	00000000000000000000000000000000
+(B[m
+	[01;30m Instrucão	lw $t0,12($t1) 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		1
+(B[m	[02;34m I[31-0]	10001101001010000000000000001100
+(B[m	[02;34m I[31-26]	100011
+(B[m	[02;34m I[25-21]	01001
+(B[m	[02;34m I[20-16]	01000
+(B[m	[02;34m I[15-11]	00000
+(B[m	[02;34m I[15-0]	0000000000001100
+(B[m	[02;32m RedDst		1
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	1
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	1
+(B[m	[02;32m AluOp		00
+(B[m	[02;32m AluOperation	010
+(B[m	[02;32m AluSrc		1
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	00000000000000000000000000000011
+(B[m	[02;34m Read_data2	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Read_data	00000000000000000000000001111100
+(B[m	[02;34m Write_Data	00000000000000000000000001111100
+(B[m	[02;34m AluResult	00000000000000000000000000001111
+(B[m	[02;34m ImmEst		00000000000000000000000000001100
+(B[m	[02;34m ImmEstAj	00000000000000000000000000110000
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	1
+(B[m	[02;34m TempoInstr	12 ns
+(B[m	[02;34m TempoTotal	12 ns
+(B[m
+	[01;30m Instrucão	add $t0,$s2,$t0 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		10
+(B[m	[02;34m I[31-0]	00000001000100100100000000100000
+(B[m	[02;34m I[31-26]	000000
+(B[m	[02;34m I[25-21]	10010
+(B[m	[02;34m I[20-16]	01000
+(B[m	[02;34m I[15-11]	01000
+(B[m	[02;34m I[15-0]	00000100000
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		10
+(B[m	[02;32m AluOperation	010
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	00000000000000000000000000000000
+(B[m	[02;34m Read_data2	00000000000000000000000001111100
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	00000000000000000000000001111100
+(B[m	[02;34m AluResult	00000000000000000000000001111100
+(B[m	[02;34m ImmEst		00000000000000000000000000001100
+(B[m	[02;34m ImmEstAj	00000000000000000000000000110000
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	10
+(B[m	[02;34m TempoInstr	8 ns
+(B[m	[02;34m TempoTotal	20 ns
+(B[m
+	[01;30m Instrucão	sub $t2,$t0,$s1 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		11
+(B[m	[02;34m I[31-0]	00000010001010000101000000100010
+(B[m	[02;34m I[31-26]	000000
+(B[m	[02;34m I[25-21]	01000
+(B[m	[02;34m I[20-16]	10001
+(B[m	[02;34m I[15-11]	01010
+(B[m	[02;34m I[15-0]	00000100010
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		10
+(B[m	[02;32m AluOperation	110
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	00000000000000000000000001111100
+(B[m	[02;34m Read_data2	00000000000000000000000000000000
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	00000000000000000000000001111100
+(B[m	[02;34m AluResult	00000000000000000000000001111100
+(B[m	[02;34m ImmEst		00000000000000000000000000001100
+(B[m	[02;34m ImmEstAj	00000000000000000000000000110000
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	11
+(B[m	[02;34m TempoInstr	8 ns
+(B[m	[02;34m TempoTotal	28 ns
+(B[m
+	[01;30m Instrucão	sw $t2,12($t1) 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		100
+(B[m	[02;34m I[31-0]	10101101001010100000000000001100
+(B[m	[02;34m I[31-26]	101011
+(B[m	[02;34m I[25-21]	01001
+(B[m	[02;34m I[20-16]	01010
+(B[m	[02;34m I[15-11]	00000
+(B[m	[02;34m I[15-0]	0000000000001100
+(B[m	[02;32m RedDst		1
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	1
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		00
+(B[m	[02;32m AluOperation	010
+(B[m	[02;32m AluSrc		1
+(B[m	[02;32m RegWrite	0
+(B[m	[02;34m Read_data1	00000000000000000000000000000011
+(B[m	[02;34m Read_data2	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m AluResult	00000000000000000000000000001111
+(B[m	[02;34m ImmEst		00000000000000000000000000001100
+(B[m	[02;34m ImmEstAj	00000000000000000000000000110000
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	100
+(B[m	[02;34m TempoInstr	11 ns
+(B[m	[02;34m TempoTotal	39 ns
+(B[m
+	[01;30m Instrucão	slt $s1,$t2,$t0 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		101
+(B[m	[02;34m I[31-0]	00000001000010101000100000101010
+(B[m	[02;34m I[31-26]	000000
+(B[m	[02;34m I[25-21]	01010
+(B[m	[02;34m I[20-16]	01000
+(B[m	[02;34m I[15-11]	10001
+(B[m	[02;34m I[15-0]	00000101010
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		10
+(B[m	[02;32m AluOperation	111
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	00000000000000000000000001111100
+(B[m	[02;34m Read_data2	00000000000000000000000001111100
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	00000000000000000000000000000000
+(B[m	[02;34m AluResult	00000000000000000000000000000000
+(B[m	[02;34m ImmEst		00000000000000000000000000001100
+(B[m	[02;34m ImmEstAj	00000000000000000000000000110000
+(B[m	[02;34m Zero		1
+(B[m	[02;34m QuantInstrt	101
+(B[m	[02;34m TempoInstr	8 ns
+(B[m	[02;34m TempoTotal	47 ns
+(B[m
+	[01;30m Instrucão	lw $t0,12($t1) 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		1
+(B[m	[02;34m I[31-0]	2368208908
+(B[m	[02;34m I[31-26]	35
+(B[m	[02;34m I[25-21]	9
+(B[m	[02;34m I[20-16]	8
+(B[m	[02;34m I[15-11]	0
+(B[m	[02;34m I[15-0]	12
+(B[m	[02;32m RedDst		1
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	1
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	1
+(B[m	[02;32m AluOp		0
+(B[m	[02;32m AluOperation	2
+(B[m	[02;32m AluSrc		1
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	3
+(B[m	[02;34m Read_data2	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Read_data	124
+(B[m	[02;34m Write_Data	124
+(B[m	[02;34m AluResult	15
+(B[m	[02;34m ImmEst		12
+(B[m	[02;34m ImmEstAj	48
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	1
+(B[m	[02;34m TempoInstr	3 ns
+(B[m	[02;34m TempoTotal	3 ns
+(B[m
+	[01;30m Instrucão	add $t0,$s2,$t0 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		2
+(B[m	[02;34m I[31-0]	17973280
+(B[m	[02;34m I[31-26]	0
+(B[m	[02;34m I[25-21]	18
+(B[m	[02;34m I[20-16]	8
+(B[m	[02;34m I[15-11]	8
+(B[m	[02;34m I[15-0]	32
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		2
+(B[m	[02;32m AluOperation	2
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	0
+(B[m	[02;34m Read_data2	124
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	124
+(B[m	[02;34m AluResult	124
+(B[m	[02;34m ImmEst		12
+(B[m	[02;34m ImmEstAj	48
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	2
+(B[m	[02;34m TempoInstr	8 ns
+(B[m	[02;34m TempoTotal	2 ns
+(B[m
+	[01;30m Instrucão	sub $t2,$t0,$s1 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		3
+(B[m	[02;34m I[31-0]	36196386
+(B[m	[02;34m I[31-26]	0
+(B[m	[02;34m I[25-21]	8
+(B[m	[02;34m I[20-16]	17
+(B[m	[02;34m I[15-11]	10
+(B[m	[02;34m I[15-0]	34
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		2
+(B[m	[02;32m AluOperation	6
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	124
+(B[m	[02;34m Read_data2	0
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	124
+(B[m	[02;34m AluResult	124
+(B[m	[02;34m ImmEst		12
+(B[m	[02;34m ImmEstAj	48
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	3
+(B[m	[02;34m TempoInstr	8 ns
+(B[m	[02;34m TempoTotal	3 ns
+(B[m
+	[01;30m Instrucão	sw $t2,12($t1) 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		4
+(B[m	[02;34m I[31-0]	2905210892
+(B[m	[02;34m I[31-26]	43
+(B[m	[02;34m I[25-21]	9
+(B[m	[02;34m I[20-16]	10
+(B[m	[02;34m I[15-11]	0
+(B[m	[02;34m I[15-0]	12
+(B[m	[02;32m RedDst		1
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	1
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		0
+(B[m	[02;32m AluOperation	2
+(B[m	[02;32m AluSrc		1
+(B[m	[02;32m RegWrite	0
+(B[m	[02;34m Read_data1	3
+(B[m	[02;34m Read_data2	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m AluResult	15
+(B[m	[02;34m ImmEst		12
+(B[m	[02;34m ImmEstAj	48
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	4
+(B[m	[02;34m TempoInstr	3 ns
+(B[m	[02;34m TempoTotal	3 ns
+(B[m
+	[01;30m Instrucão	slt $s1,$t2,$t0 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		5
+(B[m	[02;34m I[31-0]	17467434
+(B[m	[02;34m I[31-26]	0
+(B[m	[02;34m I[25-21]	10
+(B[m	[02;34m I[20-16]	8
+(B[m	[02;34m I[15-11]	17
+(B[m	[02;34m I[15-0]	42
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		2
+(B[m	[02;32m AluOperation	7
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	124
+(B[m	[02;34m Read_data2	124
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	0
+(B[m	[02;34m AluResult	0
+(B[m	[02;34m ImmEst		12
+(B[m	[02;34m ImmEstAj	48
+(B[m	[02;34m Zero		1
+(B[m	[02;34m QuantInstrt	5
+(B[m	[02;34m TempoInstr	8 ns
+(B[m	[02;34m TempoTotal	3 ns
+(B[m
+	[01;30m Instrucão	lw $t0,12($t1) 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		1
+(B[m	[02;34m I[31-0]	2368208908
+(B[m	[02;34m I[31-26]	35
+(B[m	[02;34m I[25-21]	9
+(B[m	[02;34m I[20-16]	8
+(B[m	[02;34m I[15-11]	0
+(B[m	[02;34m I[15-0]	12
+(B[m	[02;32m RedDst		1
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	1
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	1
+(B[m	[02;32m AluOp		0
+(B[m	[02;32m AluOperation	2
+(B[m	[02;32m AluSrc		1
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	3
+(B[m	[02;34m Read_data2	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Read_data	124
+(B[m	[02;34m Write_Data	124
+(B[m	[02;34m AluResult	15
+(B[m	[02;34m ImmEst		12
+(B[m	[02;34m ImmEstAj	48
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	1
+(B[m	[02;34m TempoInstr	3 ns
+(B[m	[02;34m TempoTotal	3 ns
+(B[m
+	[01;30m Instrucão	add $t0,$s2,$t0 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		2
+(B[m	[02;34m I[31-0]	17973280
+(B[m	[02;34m I[31-26]	0
+(B[m	[02;34m I[25-21]	18
+(B[m	[02;34m I[20-16]	8
+(B[m	[02;34m I[15-11]	8
+(B[m	[02;34m I[15-0]	32
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		2
+(B[m	[02;32m AluOperation	2
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	0
+(B[m	[02;34m Read_data2	124
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	124
+(B[m	[02;34m AluResult	124
+(B[m	[02;34m ImmEst		12
+(B[m	[02;34m ImmEstAj	48
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	2
+(B[m	[02;34m TempoInstr	8 ns
+(B[m	[02;34m TempoTotal	2 ns
+(B[m
+	[01;30m Instrucão	sub $t2,$t0,$s1 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		3
+(B[m	[02;34m I[31-0]	36196386
+(B[m	[02;34m I[31-26]	0
+(B[m	[02;34m I[25-21]	8
+(B[m	[02;34m I[20-16]	17
+(B[m	[02;34m I[15-11]	10
+(B[m	[02;34m I[15-0]	34
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		2
+(B[m	[02;32m AluOperation	6
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	124
+(B[m	[02;34m Read_data2	0
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	124
+(B[m	[02;34m AluResult	124
+(B[m	[02;34m ImmEst		12
+(B[m	[02;34m ImmEstAj	48
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	3
+(B[m	[02;34m TempoInstr	8 ns
+(B[m	[02;34m TempoTotal	3 ns
+(B[m
+	[01;30m Instrucão	sw $t2,12($t1) 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		4
+(B[m	[02;34m I[31-0]	2905210892
+(B[m	[02;34m I[31-26]	43
+(B[m	[02;34m I[25-21]	9
+(B[m	[02;34m I[20-16]	10
+(B[m	[02;34m I[15-11]	0
+(B[m	[02;34m I[15-0]	12
+(B[m	[02;32m RedDst		1
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	1
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		0
+(B[m	[02;32m AluOperation	2
+(B[m	[02;32m AluSrc		1
+(B[m	[02;32m RegWrite	0
+(B[m	[02;34m Read_data1	3
+(B[m	[02;34m Read_data2	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m AluResult	15
+(B[m	[02;34m ImmEst		12
+(B[m	[02;34m ImmEstAj	48
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	4
+(B[m	[02;34m TempoInstr	3 ns
+(B[m	[02;34m TempoTotal	3 ns
+(B[m
+	[01;30m Instrucão	slt $s1,$t2,$t0 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		5
+(B[m	[02;34m I[31-0]	17467434
+(B[m	[02;34m I[31-26]	0
+(B[m	[02;34m I[25-21]	10
+(B[m	[02;34m I[20-16]	8
+(B[m	[02;34m I[15-11]	17
+(B[m	[02;34m I[15-0]	42
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		2
+(B[m	[02;32m AluOperation	7
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	124
+(B[m	[02;34m Read_data2	124
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	0
+(B[m	[02;34m AluResult	0
+(B[m	[02;34m ImmEst		12
+(B[m	[02;34m ImmEstAj	48
+(B[m	[02;34m Zero		1
+(B[m	[02;34m QuantInstrt	5
+(B[m	[02;34m TempoInstr	8 ns
+(B[m	[02;34m TempoTotal	3 ns
+(B[m
+	[01;30m Instrucão	lw $t0,12($t1) 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		1
+(B[m	[02;34m I[31-0]	2368208908
+(B[m	[02;34m I[31-26]	35
+(B[m	[02;34m I[25-21]	9
+(B[m	[02;34m I[20-16]	8
+(B[m	[02;34m I[15-11]	0
+(B[m	[02;34m I[15-0]	12
+(B[m	[02;32m RedDst		1
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	1
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	1
+(B[m	[02;32m AluOp		0
+(B[m	[02;32m AluOperation	2
+(B[m	[02;32m AluSrc		1
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	3
+(B[m	[02;34m Read_data2	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Read_data	124
+(B[m	[02;34m Write_Data	124
+(B[m	[02;34m AluResult	15
+(B[m	[02;34m ImmEst		12
+(B[m	[02;34m ImmEstAj	48
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	1
+(B[m	[02;34m TempoInstr	3 ns
+(B[m	[02;34m TempoTotal	12
+(B[m
+	[01;30m Instrucão	add $t0,$s2,$t0 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		2
+(B[m	[02;34m I[31-0]	17973280
+(B[m	[02;34m I[31-26]	0
+(B[m	[02;34m I[25-21]	18
+(B[m	[02;34m I[20-16]	8
+(B[m	[02;34m I[15-11]	8
+(B[m	[02;34m I[15-0]	32
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		2
+(B[m	[02;32m AluOperation	2
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	0
+(B[m	[02;34m Read_data2	124
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	124
+(B[m	[02;34m AluResult	124
+(B[m	[02;34m ImmEst		12
+(B[m	[02;34m ImmEstAj	48
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	2
+(B[m	[02;34m TempoInstr	8 ns
+(B[m	[02;34m TempoTotal	20
+(B[m
+	[01;30m Instrucão	sub $t2,$t0,$s1 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		3
+(B[m	[02;34m I[31-0]	36196386
+(B[m	[02;34m I[31-26]	0
+(B[m	[02;34m I[25-21]	8
+(B[m	[02;34m I[20-16]	17
+(B[m	[02;34m I[15-11]	10
+(B[m	[02;34m I[15-0]	34
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		2
+(B[m	[02;32m AluOperation	6
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	124
+(B[m	[02;34m Read_data2	0
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	124
+(B[m	[02;34m AluResult	124
+(B[m	[02;34m ImmEst		12
+(B[m	[02;34m ImmEstAj	48
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	3
+(B[m	[02;34m TempoInstr	8 ns
+(B[m	[02;34m TempoTotal	28
+(B[m
+	[01;30m Instrucão	sw $t2,12($t1) 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		4
+(B[m	[02;34m I[31-0]	2905210892
+(B[m	[02;34m I[31-26]	43
+(B[m	[02;34m I[25-21]	9
+(B[m	[02;34m I[20-16]	10
+(B[m	[02;34m I[15-11]	0
+(B[m	[02;34m I[15-0]	12
+(B[m	[02;32m RedDst		1
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	1
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		0
+(B[m	[02;32m AluOperation	2
+(B[m	[02;32m AluSrc		1
+(B[m	[02;32m RegWrite	0
+(B[m	[02;34m Read_data1	3
+(B[m	[02;34m Read_data2	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m AluResult	15
+(B[m	[02;34m ImmEst		12
+(B[m	[02;34m ImmEstAj	48
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	4
+(B[m	[02;34m TempoInstr	3 ns
+(B[m	[02;34m TempoTotal	39
+(B[m
+	[01;30m Instrucão	slt $s1,$t2,$t0 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		5
+(B[m	[02;34m I[31-0]	17467434
+(B[m	[02;34m I[31-26]	0
+(B[m	[02;34m I[25-21]	10
+(B[m	[02;34m I[20-16]	8
+(B[m	[02;34m I[15-11]	17
+(B[m	[02;34m I[15-0]	42
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		2
+(B[m	[02;32m AluOperation	7
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	124
+(B[m	[02;34m Read_data2	124
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	0
+(B[m	[02;34m AluResult	0
+(B[m	[02;34m ImmEst		12
+(B[m	[02;34m ImmEstAj	48
+(B[m	[02;34m Zero		1
+(B[m	[02;34m QuantInstrt	5
+(B[m	[02;34m TempoInstr	8 ns
+(B[m	[02;34m TempoTotal	47
+(B[m
+	[01;30m Instrucão	lw $t0,12($t1) 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		1
+(B[m	[02;34m I[31-0]	2368208908
+(B[m	[02;34m I[31-26]	35
+(B[m	[02;34m I[25-21]	9
+(B[m	[02;34m I[20-16]	8
+(B[m	[02;34m I[15-11]	0
+(B[m	[02;34m I[15-0]	12
+(B[m	[02;32m RedDst		1
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	1
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	1
+(B[m	[02;32m AluOp		0
+(B[m	[02;32m AluOperation	2
+(B[m	[02;32m AluSrc		1
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	3
+(B[m	[02;34m Read_data2	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Read_data	124
+(B[m	[02;34m Write_Data	124
+(B[m	[02;34m AluResult	15
+(B[m	[02;34m ImmEst		12
+(B[m	[02;34m ImmEstAj	48
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	1
+(B[m	[02;34m TempoInstr	3 ns
+(B[m	[02;34m TempoTotal	12
+(B[m
+	[01;30m Instrucão	add $t0,$s2,$t0 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		2
+(B[m	[02;34m I[31-0]	17973280
+(B[m	[02;34m I[31-26]	0
+(B[m	[02;34m I[25-21]	18
+(B[m	[02;34m I[20-16]	8
+(B[m	[02;34m I[15-11]	8
+(B[m	[02;34m I[15-0]	32
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		2
+(B[m	[02;32m AluOperation	2
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	0
+(B[m	[02;34m Read_data2	124
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	124
+(B[m	[02;34m AluResult	124
+(B[m	[02;34m ImmEst		12
+(B[m	[02;34m ImmEstAj	48
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	2
+(B[m	[02;34m TempoInstr	8 ns
+(B[m	[02;34m TempoTotal	20
+(B[m
+	[01;30m Instrucão	sub $t2,$t0,$s1 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		3
+(B[m	[02;34m I[31-0]	36196386
+(B[m	[02;34m I[31-26]	0
+(B[m	[02;34m I[25-21]	8
+(B[m	[02;34m I[20-16]	17
+(B[m	[02;34m I[15-11]	10
+(B[m	[02;34m I[15-0]	34
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		2
+(B[m	[02;32m AluOperation	6
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	124
+(B[m	[02;34m Read_data2	0
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	124
+(B[m	[02;34m AluResult	124
+(B[m	[02;34m ImmEst		12
+(B[m	[02;34m ImmEstAj	48
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	3
+(B[m	[02;34m TempoInstr	8 ns
+(B[m	[02;34m TempoTotal	28
+(B[m
+	[01;30m Instrucão	sw $t2,12($t1) 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		4
+(B[m	[02;34m I[31-0]	2905210892
+(B[m	[02;34m I[31-26]	43
+(B[m	[02;34m I[25-21]	9
+(B[m	[02;34m I[20-16]	10
+(B[m	[02;34m I[15-11]	0
+(B[m	[02;34m I[15-0]	12
+(B[m	[02;32m RedDst		1
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	1
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		0
+(B[m	[02;32m AluOperation	2
+(B[m	[02;32m AluSrc		1
+(B[m	[02;32m RegWrite	0
+(B[m	[02;34m Read_data1	3
+(B[m	[02;34m Read_data2	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m AluResult	15
+(B[m	[02;34m ImmEst		12
+(B[m	[02;34m ImmEstAj	48
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	4
+(B[m	[02;34m TempoInstr	3 ns
+(B[m	[02;34m TempoTotal	39
+(B[m
+	[01;30m Instrucão	slt $s1,$t2,$t0 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		5
+(B[m	[02;34m I[31-0]	17467434
+(B[m	[02;34m I[31-26]	0
+(B[m	[02;34m I[25-21]	10
+(B[m	[02;34m I[20-16]	8
+(B[m	[02;34m I[15-11]	17
+(B[m	[02;34m I[15-0]	42
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		2
+(B[m	[02;32m AluOperation	7
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	124
+(B[m	[02;34m Read_data2	124
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	0
+(B[m	[02;34m AluResult	0
+(B[m	[02;34m ImmEst		12
+(B[m	[02;34m ImmEstAj	48
+(B[m	[02;34m Zero		1
+(B[m	[02;34m QuantInstrt	5
+(B[m	[02;34m TempoInstr	8 ns
+(B[m	[02;34m TempoTotal	47
+(B[m
+	[01;30m Instrucão	lw $t0,12($t1) 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		1
+(B[m	[02;34m I[31-0]	2368208908
+(B[m	[02;34m I[31-26]	35
+(B[m	[02;34m I[25-21]	9
+(B[m	[02;34m I[20-16]	8
+(B[m	[02;34m I[15-11]	0
+(B[m	[02;34m I[15-0]	12
+(B[m	[02;32m RedDst		1
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	1
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	1
+(B[m	[02;32m AluOp		0
+(B[m	[02;32m AluOperation	2
+(B[m	[02;32m AluSrc		1
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	3
+(B[m	[02;34m Read_data2	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Read_data	124
+(B[m	[02;34m Write_Data	124
+(B[m	[02;34m AluResult	15
+(B[m	[02;34m ImmEst		12
+(B[m	[02;34m ImmEstAj	48
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	1
+(B[m	[02;34m TempoInstr	3 ns
+(B[m	[02;34m TempoTotal	 3 ns
+(B[m
+	[01;30m Instrucão	add $t0,$s2,$t0 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		2
+(B[m	[02;34m I[31-0]	17973280
+(B[m	[02;34m I[31-26]	0
+(B[m	[02;34m I[25-21]	18
+(B[m	[02;34m I[20-16]	8
+(B[m	[02;34m I[15-11]	8
+(B[m	[02;34m I[15-0]	32
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		2
+(B[m	[02;32m AluOperation	2
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	0
+(B[m	[02;34m Read_data2	124
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	124
+(B[m	[02;34m AluResult	124
+(B[m	[02;34m ImmEst		12
+(B[m	[02;34m ImmEstAj	48
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	2
+(B[m	[02;34m TempoInstr	8 ns
+(B[m	[02;34m TempoTotal	 2 ns
+(B[m
+	[01;30m Instrucão	sub $t2,$t0,$s1 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		3
+(B[m	[02;34m I[31-0]	36196386
+(B[m	[02;34m I[31-26]	0
+(B[m	[02;34m I[25-21]	8
+(B[m	[02;34m I[20-16]	17
+(B[m	[02;34m I[15-11]	10
+(B[m	[02;34m I[15-0]	34
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		2
+(B[m	[02;32m AluOperation	6
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	124
+(B[m	[02;34m Read_data2	0
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	124
+(B[m	[02;34m AluResult	124
+(B[m	[02;34m ImmEst		12
+(B[m	[02;34m ImmEstAj	48
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	3
+(B[m	[02;34m TempoInstr	8 ns
+(B[m	[02;34m TempoTotal	 3 ns
+(B[m
+	[01;30m Instrucão	sw $t2,12($t1) 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		4
+(B[m	[02;34m I[31-0]	2905210892
+(B[m	[02;34m I[31-26]	43
+(B[m	[02;34m I[25-21]	9
+(B[m	[02;34m I[20-16]	10
+(B[m	[02;34m I[15-11]	0
+(B[m	[02;34m I[15-0]	12
+(B[m	[02;32m RedDst		1
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	1
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		0
+(B[m	[02;32m AluOperation	2
+(B[m	[02;32m AluSrc		1
+(B[m	[02;32m RegWrite	0
+(B[m	[02;34m Read_data1	3
+(B[m	[02;34m Read_data2	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m AluResult	15
+(B[m	[02;34m ImmEst		12
+(B[m	[02;34m ImmEstAj	48
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	4
+(B[m	[02;34m TempoInstr	3 ns
+(B[m	[02;34m TempoTotal	 3 ns
+(B[m
+	[01;30m Instrucão	slt $s1,$t2,$t0 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		5
+(B[m	[02;34m I[31-0]	17467434
+(B[m	[02;34m I[31-26]	0
+(B[m	[02;34m I[25-21]	10
+(B[m	[02;34m I[20-16]	8
+(B[m	[02;34m I[15-11]	17
+(B[m	[02;34m I[15-0]	42
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		2
+(B[m	[02;32m AluOperation	7
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	124
+(B[m	[02;34m Read_data2	124
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	0
+(B[m	[02;34m AluResult	0
+(B[m	[02;34m ImmEst		12
+(B[m	[02;34m ImmEstAj	48
+(B[m	[02;34m Zero		1
+(B[m	[02;34m QuantInstrt	5
+(B[m	[02;34m TempoInstr	8 ns
+(B[m	[02;34m TempoTotal	 3 ns
+(B[m
+	[01;30m Instrucão	lw $t0,12($t1) 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		1
+(B[m	[02;34m I[31-0]	2368208908
+(B[m	[02;34m I[31-26]	35
+(B[m	[02;34m I[25-21]	9
+(B[m	[02;34m I[20-16]	8
+(B[m	[02;34m I[15-11]	0
+(B[m	[02;34m I[15-0]	12
+(B[m	[02;32m RedDst		1
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	1
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	1
+(B[m	[02;32m AluOp		0
+(B[m	[02;32m AluOperation	2
+(B[m	[02;32m AluSrc		1
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	3
+(B[m	[02;34m Read_data2	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Read_data	124
+(B[m	[02;34m Write_Data	124
+(B[m	[02;34m AluResult	15
+(B[m	[02;34m ImmEst		12
+(B[m	[02;34m ImmEstAj	48
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	1
+(B[m	[02;34m TempoInstr	3 ns
+(B[m	[02;34m TempoTotal	 12 ns
+(B[m
+	[01;30m Instrucão	add $t0,$s2,$t0 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		2
+(B[m	[02;34m I[31-0]	17973280
+(B[m	[02;34m I[31-26]	0
+(B[m	[02;34m I[25-21]	18
+(B[m	[02;34m I[20-16]	8
+(B[m	[02;34m I[15-11]	8
+(B[m	[02;34m I[15-0]	32
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		2
+(B[m	[02;32m AluOperation	2
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	0
+(B[m	[02;34m Read_data2	124
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	124
+(B[m	[02;34m AluResult	124
+(B[m	[02;34m ImmEst		12
+(B[m	[02;34m ImmEstAj	48
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	2
+(B[m	[02;34m TempoInstr	8 ns
+(B[m	[02;34m TempoTotal	 20 ns
+(B[m
+	[01;30m Instrucão	sub $t2,$t0,$s1 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		3
+(B[m	[02;34m I[31-0]	36196386
+(B[m	[02;34m I[31-26]	0
+(B[m	[02;34m I[25-21]	8
+(B[m	[02;34m I[20-16]	17
+(B[m	[02;34m I[15-11]	10
+(B[m	[02;34m I[15-0]	34
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		2
+(B[m	[02;32m AluOperation	6
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	124
+(B[m	[02;34m Read_data2	0
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	124
+(B[m	[02;34m AluResult	124
+(B[m	[02;34m ImmEst		12
+(B[m	[02;34m ImmEstAj	48
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	3
+(B[m	[02;34m TempoInstr	8 ns
+(B[m	[02;34m TempoTotal	 28 ns
+(B[m
+	[01;30m Instrucão	sw $t2,12($t1) 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		4
+(B[m	[02;34m I[31-0]	2905210892
+(B[m	[02;34m I[31-26]	43
+(B[m	[02;34m I[25-21]	9
+(B[m	[02;34m I[20-16]	10
+(B[m	[02;34m I[15-11]	0
+(B[m	[02;34m I[15-0]	12
+(B[m	[02;32m RedDst		1
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	1
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		0
+(B[m	[02;32m AluOperation	2
+(B[m	[02;32m AluSrc		1
+(B[m	[02;32m RegWrite	0
+(B[m	[02;34m Read_data1	3
+(B[m	[02;34m Read_data2	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m AluResult	15
+(B[m	[02;34m ImmEst		12
+(B[m	[02;34m ImmEstAj	48
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	4
+(B[m	[02;34m TempoInstr	3 ns
+(B[m	[02;34m TempoTotal	 39 ns
+(B[m
+	[01;30m Instrucão	slt $s1,$t2,$t0 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		5
+(B[m	[02;34m I[31-0]	17467434
+(B[m	[02;34m I[31-26]	0
+(B[m	[02;34m I[25-21]	10
+(B[m	[02;34m I[20-16]	8
+(B[m	[02;34m I[15-11]	17
+(B[m	[02;34m I[15-0]	42
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		2
+(B[m	[02;32m AluOperation	7
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	124
+(B[m	[02;34m Read_data2	124
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	0
+(B[m	[02;34m AluResult	0
+(B[m	[02;34m ImmEst		12
+(B[m	[02;34m ImmEstAj	48
+(B[m	[02;34m Zero		1
+(B[m	[02;34m QuantInstrt	5
+(B[m	[02;34m TempoInstr	8 ns
+(B[m	[02;34m TempoTotal	 47 ns
+(B[m
+	[01;30m Instrucão	lw $t0,12($t1) 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		1
+(B[m	[02;34m I[31-0]	10001101001010000000000000001100
+(B[m	[02;34m I[31-26]	100011
+(B[m	[02;34m I[25-21]	01001
+(B[m	[02;34m I[20-16]	01000
+(B[m	[02;34m I[15-11]	00000
+(B[m	[02;34m I[15-0]	0000000000001100
+(B[m	[02;32m RedDst		1
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	1
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	1
+(B[m	[02;32m AluOp		00
+(B[m	[02;32m AluOperation	010
+(B[m	[02;32m AluSrc		1
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	00000000000000000000000000000011
+(B[m	[02;34m Read_data2	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Read_data	00000000000000000000000001111100
+(B[m	[02;34m Write_Data	00000000000000000000000001111100
+(B[m	[02;34m AluResult	00000000000000000000000000001111
+(B[m	[02;34m ImmEst		00000000000000000000000000001100
+(B[m	[02;34m ImmEstAj	00000000000000000000000000110000
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	1
+(B[m	[02;34m TempoInstr	12 ns
+(B[m	[02;34m TempoTotal	 1100 ns
+(B[m
+	[01;30m Instrucão	add $t0,$s2,$t0 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		10
+(B[m	[02;34m I[31-0]	00000001000100100100000000100000
+(B[m	[02;34m I[31-26]	000000
+(B[m	[02;34m I[25-21]	10010
+(B[m	[02;34m I[20-16]	01000
+(B[m	[02;34m I[15-11]	01000
+(B[m	[02;34m I[15-0]	00000100000
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		10
+(B[m	[02;32m AluOperation	010
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	00000000000000000000000000000000
+(B[m	[02;34m Read_data2	00000000000000000000000001111100
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	00000000000000000000000001111100
+(B[m	[02;34m AluResult	00000000000000000000000001111100
+(B[m	[02;34m ImmEst		00000000000000000000000000001100
+(B[m	[02;34m ImmEstAj	00000000000000000000000000110000
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	10
+(B[m	[02;34m TempoInstr	8 ns
+(B[m	[02;34m TempoTotal	 10100 ns
+(B[m
+	[01;30m Instrucão	sub $t2,$t0,$s1 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		11
+(B[m	[02;34m I[31-0]	00000010001010000101000000100010
+(B[m	[02;34m I[31-26]	000000
+(B[m	[02;34m I[25-21]	01000
+(B[m	[02;34m I[20-16]	10001
+(B[m	[02;34m I[15-11]	01010
+(B[m	[02;34m I[15-0]	00000100010
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		10
+(B[m	[02;32m AluOperation	110
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	00000000000000000000000001111100
+(B[m	[02;34m Read_data2	00000000000000000000000000000000
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	00000000000000000000000001111100
+(B[m	[02;34m AluResult	00000000000000000000000001111100
+(B[m	[02;34m ImmEst		00000000000000000000000000001100
+(B[m	[02;34m ImmEstAj	00000000000000000000000000110000
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	11
+(B[m	[02;34m TempoInstr	8 ns
+(B[m	[02;34m TempoTotal	 11100 ns
+(B[m
+	[01;30m Instrucão	sw $t2,12($t1) 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		100
+(B[m	[02;34m I[31-0]	10101101001010100000000000001100
+(B[m	[02;34m I[31-26]	101011
+(B[m	[02;34m I[25-21]	01001
+(B[m	[02;34m I[20-16]	01010
+(B[m	[02;34m I[15-11]	00000
+(B[m	[02;34m I[15-0]	0000000000001100
+(B[m	[02;32m RedDst		1
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	1
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		00
+(B[m	[02;32m AluOperation	010
+(B[m	[02;32m AluSrc		1
+(B[m	[02;32m RegWrite	0
+(B[m	[02;34m Read_data1	00000000000000000000000000000011
+(B[m	[02;34m Read_data2	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m AluResult	00000000000000000000000000001111
+(B[m	[02;34m ImmEst		00000000000000000000000000001100
+(B[m	[02;34m ImmEstAj	00000000000000000000000000110000
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	100
+(B[m	[02;34m TempoInstr	11 ns
+(B[m	[02;34m TempoTotal	 100111 ns
+(B[m
+	[01;30m Instrucão	slt $s1,$t2,$t0 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		101
+(B[m	[02;34m I[31-0]	00000001000010101000100000101010
+(B[m	[02;34m I[31-26]	000000
+(B[m	[02;34m I[25-21]	01010
+(B[m	[02;34m I[20-16]	01000
+(B[m	[02;34m I[15-11]	10001
+(B[m	[02;34m I[15-0]	00000101010
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		10
+(B[m	[02;32m AluOperation	111
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	00000000000000000000000001111100
+(B[m	[02;34m Read_data2	00000000000000000000000001111100
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	00000000000000000000000000000000
+(B[m	[02;34m AluResult	00000000000000000000000000000000
+(B[m	[02;34m ImmEst		00000000000000000000000000001100
+(B[m	[02;34m ImmEstAj	00000000000000000000000000110000
+(B[m	[02;34m Zero		1
+(B[m	[02;34m QuantInstrt	101
+(B[m	[02;34m TempoInstr	8 ns
+(B[m	[02;34m TempoTotal	 101111 ns
+(B[m
+	[01;30m Instrucão	lw $t0,12($t1) 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		1
+(B[m	[02;34m I[31-0]	8D28000C
+(B[m	[02;34m I[31-26]	23
+(B[m	[02;34m I[25-21]	9
+(B[m	[02;34m I[20-16]	8
+(B[m	[02;34m I[15-11]	0
+(B[m	[02;34m I[15-0]	C
+(B[m	[02;32m RedDst		1
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	1
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	1
+(B[m	[02;32m AluOp		0
+(B[m	[02;32m AluOperation	2
+(B[m	[02;32m AluSrc		1
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	3
+(B[m	[02;34m Read_data2	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Read_data	7C
+(B[m	[02;34m Write_Data	7C
+(B[m	[02;34m AluResult	F
+(B[m	[02;34m ImmEst		C
+(B[m	[02;34m ImmEstAj	30
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	1
+(B[m	[02;34m TempoInstr	3 ns
+(B[m	[02;34m TempoTotal	 C ns
+(B[m
+	[01;30m Instrucão	add $t0,$s2,$t0 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		2
+(B[m	[02;34m I[31-0]	1124020
+(B[m	[02;34m I[31-26]	0
+(B[m	[02;34m I[25-21]	12
+(B[m	[02;34m I[20-16]	8
+(B[m	[02;34m I[15-11]	8
+(B[m	[02;34m I[15-0]	20
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		2
+(B[m	[02;32m AluOperation	2
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	0
+(B[m	[02;34m Read_data2	7C
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	7C
+(B[m	[02;34m AluResult	7C
+(B[m	[02;34m ImmEst		C
+(B[m	[02;34m ImmEstAj	30
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	2
+(B[m	[02;34m TempoInstr	8 ns
+(B[m	[02;34m TempoTotal	 14 ns
+(B[m
+	[01;30m Instrucão	sub $t2,$t0,$s1 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		3
+(B[m	[02;34m I[31-0]	2285022
+(B[m	[02;34m I[31-26]	0
+(B[m	[02;34m I[25-21]	8
+(B[m	[02;34m I[20-16]	11
+(B[m	[02;34m I[15-11]	A
+(B[m	[02;34m I[15-0]	22
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		2
+(B[m	[02;32m AluOperation	6
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	7C
+(B[m	[02;34m Read_data2	0
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	7C
+(B[m	[02;34m AluResult	7C
+(B[m	[02;34m ImmEst		C
+(B[m	[02;34m ImmEstAj	30
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	3
+(B[m	[02;34m TempoInstr	8 ns
+(B[m	[02;34m TempoTotal	 1C ns
+(B[m
+	[01;30m Instrucão	sw $t2,12($t1) 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		4
+(B[m	[02;34m I[31-0]	AD2A000C
+(B[m	[02;34m I[31-26]	2B
+(B[m	[02;34m I[25-21]	9
+(B[m	[02;34m I[20-16]	A
+(B[m	[02;34m I[15-11]	0
+(B[m	[02;34m I[15-0]	C
+(B[m	[02;32m RedDst		1
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	1
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		0
+(B[m	[02;32m AluOperation	2
+(B[m	[02;32m AluSrc		1
+(B[m	[02;32m RegWrite	0
+(B[m	[02;34m Read_data1	3
+(B[m	[02;34m Read_data2	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m AluResult	F
+(B[m	[02;34m ImmEst		C
+(B[m	[02;34m ImmEstAj	30
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	4
+(B[m	[02;34m TempoInstr	3 ns
+(B[m	[02;34m TempoTotal	 27 ns
+(B[m
+	[01;30m Instrucão	slt $s1,$t2,$t0 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		5
+(B[m	[02;34m I[31-0]	10A882A
+(B[m	[02;34m I[31-26]	0
+(B[m	[02;34m I[25-21]	A
+(B[m	[02;34m I[20-16]	8
+(B[m	[02;34m I[15-11]	11
+(B[m	[02;34m I[15-0]	2A
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		2
+(B[m	[02;32m AluOperation	7
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	7C
+(B[m	[02;34m Read_data2	7C
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	0
+(B[m	[02;34m AluResult	0
+(B[m	[02;34m ImmEst		C
+(B[m	[02;34m ImmEstAj	30
+(B[m	[02;34m Zero		1
+(B[m	[02;34m QuantInstrt	5
+(B[m	[02;34m TempoInstr	8 ns
+(B[m	[02;34m TempoTotal	 2F ns
+(B[m
+	[01;30m Instrucão	lw $t0,12($t1) 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		1
+(B[m	[02;34m I[31-0]	2368208908
+(B[m	[02;34m I[31-26]	35
+(B[m	[02;34m I[25-21]	9
+(B[m	[02;34m I[20-16]	8
+(B[m	[02;34m I[15-11]	0
+(B[m	[02;34m I[15-0]	12
+(B[m	[02;32m RedDst		1
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	1
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	1
+(B[m	[02;32m AluOp		0
+(B[m	[02;32m AluOperation	2
+(B[m	[02;32m AluSrc		1
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	3
+(B[m	[02;34m Read_data2	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Read_data	124
+(B[m	[02;34m Write_Data	124
+(B[m	[02;34m AluResult	15
+(B[m	[02;34m ImmEst		12
+(B[m	[02;34m ImmEstAj	48
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	1
+(B[m	[02;34m TempoInstr	12 ns
+(B[m	[02;34m TempoTotal	 1100 ns
+(B[m
+	[01;30m Instrucão	add $t0,$s2,$t0 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		2
+(B[m	[02;34m I[31-0]	17973280
+(B[m	[02;34m I[31-26]	0
+(B[m	[02;34m I[25-21]	18
+(B[m	[02;34m I[20-16]	8
+(B[m	[02;34m I[15-11]	8
+(B[m	[02;34m I[15-0]	32
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		2
+(B[m	[02;32m AluOperation	2
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	0
+(B[m	[02;34m Read_data2	124
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	124
+(B[m	[02;34m AluResult	124
+(B[m	[02;34m ImmEst		12
+(B[m	[02;34m ImmEstAj	48
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	2
+(B[m	[02;34m TempoInstr	8 ns
+(B[m	[02;34m TempoTotal	 2100 ns
+(B[m
+	[01;30m Instrucão	sub $t2,$t0,$s1 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		3
+(B[m	[02;34m I[31-0]	36196386
+(B[m	[02;34m I[31-26]	0
+(B[m	[02;34m I[25-21]	8
+(B[m	[02;34m I[20-16]	17
+(B[m	[02;34m I[15-11]	10
+(B[m	[02;34m I[15-0]	34
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		2
+(B[m	[02;32m AluOperation	6
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	124
+(B[m	[02;34m Read_data2	0
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	124
+(B[m	[02;34m AluResult	124
+(B[m	[02;34m ImmEst		12
+(B[m	[02;34m ImmEstAj	48
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	3
+(B[m	[02;34m TempoInstr	8 ns
+(B[m	[02;34m TempoTotal	 3100 ns
+(B[m
+	[01;30m Instrucão	sw $t2,12($t1) 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		4
+(B[m	[02;34m I[31-0]	2905210892
+(B[m	[02;34m I[31-26]	43
+(B[m	[02;34m I[25-21]	9
+(B[m	[02;34m I[20-16]	10
+(B[m	[02;34m I[15-11]	0
+(B[m	[02;34m I[15-0]	12
+(B[m	[02;32m RedDst		1
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	1
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		0
+(B[m	[02;32m AluOperation	2
+(B[m	[02;32m AluSrc		1
+(B[m	[02;32m RegWrite	0
+(B[m	[02;34m Read_data1	3
+(B[m	[02;34m Read_data2	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m AluResult	15
+(B[m	[02;34m ImmEst		12
+(B[m	[02;34m ImmEstAj	48
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	4
+(B[m	[02;34m TempoInstr	11 ns
+(B[m	[02;34m TempoTotal	 4111 ns
+(B[m
+	[01;30m Instrucão	slt $s1,$t2,$t0 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		5
+(B[m	[02;34m I[31-0]	17467434
+(B[m	[02;34m I[31-26]	0
+(B[m	[02;34m I[25-21]	10
+(B[m	[02;34m I[20-16]	8
+(B[m	[02;34m I[15-11]	17
+(B[m	[02;34m I[15-0]	42
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		2
+(B[m	[02;32m AluOperation	7
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	124
+(B[m	[02;34m Read_data2	124
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	0
+(B[m	[02;34m AluResult	0
+(B[m	[02;34m ImmEst		12
+(B[m	[02;34m ImmEstAj	48
+(B[m	[02;34m Zero		1
+(B[m	[02;34m QuantInstrt	5
+(B[m	[02;34m TempoInstr	8 ns
+(B[m	[02;34m TempoTotal	 5111 ns
+(B[m
+	[01;30m Instrucão	lw $t0,12($t1) 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		1
+(B[m	[02;34m I[31-0]	8D28000C
+(B[m	[02;34m I[31-26]	23
+(B[m	[02;34m I[25-21]	9
+(B[m	[02;34m I[20-16]	8
+(B[m	[02;34m I[15-11]	0
+(B[m	[02;34m I[15-0]	C
+(B[m	[02;32m RedDst		1
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	1
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	1
+(B[m	[02;32m AluOp		0
+(B[m	[02;32m AluOperation	2
+(B[m	[02;32m AluSrc		1
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	3
+(B[m	[02;34m Read_data2	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Read_data	7C
+(B[m	[02;34m Write_Data	7C
+(B[m	[02;34m AluResult	F
+(B[m	[02;34m ImmEst		C
+(B[m	[02;34m ImmEstAj	30
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	1
+(B[m	[02;34m TempoInstr	C ns
+(B[m	[02;34m TempoTotal	 44C ns
+(B[m
+	[01;30m Instrucão	add $t0,$s2,$t0 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		2
+(B[m	[02;34m I[31-0]	1124020
+(B[m	[02;34m I[31-26]	0
+(B[m	[02;34m I[25-21]	12
+(B[m	[02;34m I[20-16]	8
+(B[m	[02;34m I[15-11]	8
+(B[m	[02;34m I[15-0]	20
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		2
+(B[m	[02;32m AluOperation	2
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	0
+(B[m	[02;34m Read_data2	7C
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	7C
+(B[m	[02;34m AluResult	7C
+(B[m	[02;34m ImmEst		C
+(B[m	[02;34m ImmEstAj	30
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	2
+(B[m	[02;34m TempoInstr	8 ns
+(B[m	[02;34m TempoTotal	 834 ns
+(B[m
+	[01;30m Instrucão	sub $t2,$t0,$s1 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		3
+(B[m	[02;34m I[31-0]	2285022
+(B[m	[02;34m I[31-26]	0
+(B[m	[02;34m I[25-21]	8
+(B[m	[02;34m I[20-16]	11
+(B[m	[02;34m I[15-11]	A
+(B[m	[02;34m I[15-0]	22
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		2
+(B[m	[02;32m AluOperation	6
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	7C
+(B[m	[02;34m Read_data2	0
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	7C
+(B[m	[02;34m AluResult	7C
+(B[m	[02;34m ImmEst		C
+(B[m	[02;34m ImmEstAj	30
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	3
+(B[m	[02;34m TempoInstr	8 ns
+(B[m	[02;34m TempoTotal	 C1C ns
+(B[m
+	[01;30m Instrucão	sw $t2,12($t1) 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		4
+(B[m	[02;34m I[31-0]	AD2A000C
+(B[m	[02;34m I[31-26]	2B
+(B[m	[02;34m I[25-21]	9
+(B[m	[02;34m I[20-16]	A
+(B[m	[02;34m I[15-11]	0
+(B[m	[02;34m I[15-0]	C
+(B[m	[02;32m RedDst		1
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	1
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		0
+(B[m	[02;32m AluOperation	2
+(B[m	[02;32m AluSrc		1
+(B[m	[02;32m RegWrite	0
+(B[m	[02;34m Read_data1	3
+(B[m	[02;34m Read_data2	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m AluResult	F
+(B[m	[02;34m ImmEst		C
+(B[m	[02;34m ImmEstAj	30
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	4
+(B[m	[02;34m TempoInstr	B ns
+(B[m	[02;34m TempoTotal	 100F ns
+(B[m
+	[01;30m Instrucão	slt $s1,$t2,$t0 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		5
+(B[m	[02;34m I[31-0]	10A882A
+(B[m	[02;34m I[31-26]	0
+(B[m	[02;34m I[25-21]	A
+(B[m	[02;34m I[20-16]	8
+(B[m	[02;34m I[15-11]	11
+(B[m	[02;34m I[15-0]	2A
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		2
+(B[m	[02;32m AluOperation	7
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	7C
+(B[m	[02;34m Read_data2	7C
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	0
+(B[m	[02;34m AluResult	0
+(B[m	[02;34m ImmEst		C
+(B[m	[02;34m ImmEstAj	30
+(B[m	[02;34m Zero		1
+(B[m	[02;34m QuantInstrt	5
+(B[m	[02;34m TempoInstr	8 ns
+(B[m	[02;34m TempoTotal	 13F7 ns
+(B[m
+	[01;30m Instrucão	lw $t0,12($t1) 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		1
+(B[m	[02;34m I[31-0]	8D28000C
+(B[m	[02;34m I[31-26]	23
+(B[m	[02;34m I[25-21]	9
+(B[m	[02;34m I[20-16]	8
+(B[m	[02;34m I[15-11]	0
+(B[m	[02;34m I[15-0]	C
+(B[m	[02;32m RedDst		1
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	1
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	1
+(B[m	[02;32m AluOp		0
+(B[m	[02;32m AluOperation	2
+(B[m	[02;32m AluSrc		1
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	3
+(B[m	[02;34m Read_data2	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Read_data	7C
+(B[m	[02;34m Write_Data	7C
+(B[m	[02;34m AluResult	F
+(B[m	[02;34m ImmEst		C
+(B[m	[02;34m ImmEstAj	30
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	1
+(B[m	[02;34m TempoInstr	C ns
+(B[m	[02;34m TempoTotal	44C ns
+(B[m
+	[01;30m Instrucão	add $t0,$s2,$t0 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		2
+(B[m	[02;34m I[31-0]	1124020
+(B[m	[02;34m I[31-26]	0
+(B[m	[02;34m I[25-21]	12
+(B[m	[02;34m I[20-16]	8
+(B[m	[02;34m I[15-11]	8
+(B[m	[02;34m I[15-0]	20
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		2
+(B[m	[02;32m AluOperation	2
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	0
+(B[m	[02;34m Read_data2	7C
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	7C
+(B[m	[02;34m AluResult	7C
+(B[m	[02;34m ImmEst		C
+(B[m	[02;34m ImmEstAj	30
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	2
+(B[m	[02;34m TempoInstr	8 ns
+(B[m	[02;34m TempoTotal	834 ns
+(B[m
+	[01;30m Instrucão	sub $t2,$t0,$s1 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		3
+(B[m	[02;34m I[31-0]	2285022
+(B[m	[02;34m I[31-26]	0
+(B[m	[02;34m I[25-21]	8
+(B[m	[02;34m I[20-16]	11
+(B[m	[02;34m I[15-11]	A
+(B[m	[02;34m I[15-0]	22
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		2
+(B[m	[02;32m AluOperation	6
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	7C
+(B[m	[02;34m Read_data2	0
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	7C
+(B[m	[02;34m AluResult	7C
+(B[m	[02;34m ImmEst		C
+(B[m	[02;34m ImmEstAj	30
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	3
+(B[m	[02;34m TempoInstr	8 ns
+(B[m	[02;34m TempoTotal	C1C ns
+(B[m
+	[01;30m Instrucão	sw $t2,12($t1) 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		4
+(B[m	[02;34m I[31-0]	AD2A000C
+(B[m	[02;34m I[31-26]	2B
+(B[m	[02;34m I[25-21]	9
+(B[m	[02;34m I[20-16]	A
+(B[m	[02;34m I[15-11]	0
+(B[m	[02;34m I[15-0]	C
+(B[m	[02;32m RedDst		1
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	1
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		0
+(B[m	[02;32m AluOperation	2
+(B[m	[02;32m AluSrc		1
+(B[m	[02;32m RegWrite	0
+(B[m	[02;34m Read_data1	3
+(B[m	[02;34m Read_data2	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m AluResult	F
+(B[m	[02;34m ImmEst		C
+(B[m	[02;34m ImmEstAj	30
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	4
+(B[m	[02;34m TempoInstr	B ns
+(B[m	[02;34m TempoTotal	100F ns
+(B[m
+	[01;30m Instrucão	slt $s1,$t2,$t0 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		5
+(B[m	[02;34m I[31-0]	10A882A
+(B[m	[02;34m I[31-26]	0
+(B[m	[02;34m I[25-21]	A
+(B[m	[02;34m I[20-16]	8
+(B[m	[02;34m I[15-11]	11
+(B[m	[02;34m I[15-0]	2A
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		2
+(B[m	[02;32m AluOperation	7
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	7C
+(B[m	[02;34m Read_data2	7C
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	0
+(B[m	[02;34m AluResult	0
+(B[m	[02;34m ImmEst		C
+(B[m	[02;34m ImmEstAj	30
+(B[m	[02;34m Zero		1
+(B[m	[02;34m QuantInstrt	5
+(B[m	[02;34m TempoInstr	8 ns
+(B[m	[02;34m TempoTotal	13F7 ns
+(B[m
+	[01;30m Instrucão	lw $t0,12($t1) 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		1
+(B[m	[02;34m I[31-0]	8D28000C
+(B[m	[02;34m I[31-26]	23
+(B[m	[02;34m I[25-21]	9
+(B[m	[02;34m I[20-16]	8
+(B[m	[02;34m I[15-11]	0
+(B[m	[02;34m I[15-0]	C
+(B[m	[02;32m RedDst		1
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	1
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	1
+(B[m	[02;32m AluOp		0
+(B[m	[02;32m AluOperation	2
+(B[m	[02;32m AluSrc		1
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	3
+(B[m	[02;34m Read_data2	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Read_data	7C
+(B[m	[02;34m Write_Data	7C
+(B[m	[02;34m AluResult	F
+(B[m	[02;34m ImmEst		C
+(B[m	[02;34m ImmEstAj	30
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	1
+(B[m	[02;34m TempoInstr	C ns
+(B[m	[02;34m TempoTotal	44C ns
+(B[m
+	[01;30m Instrucão	add $t0,$s2,$t0 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		2
+(B[m	[02;34m I[31-0]	1124020
+(B[m	[02;34m I[31-26]	0
+(B[m	[02;34m I[25-21]	12
+(B[m	[02;34m I[20-16]	8
+(B[m	[02;34m I[15-11]	8
+(B[m	[02;34m I[15-0]	20
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		2
+(B[m	[02;32m AluOperation	2
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	0
+(B[m	[02;34m Read_data2	7C
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	7C
+(B[m	[02;34m AluResult	7C
+(B[m	[02;34m ImmEst		C
+(B[m	[02;34m ImmEstAj	30
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	2
+(B[m	[02;34m TempoInstr	8 ns
+(B[m	[02;34m TempoTotal	834 ns
+(B[m
+	[01;30m Instrucão	sub $t2,$t0,$s1 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		3
+(B[m	[02;34m I[31-0]	2285022
+(B[m	[02;34m I[31-26]	0
+(B[m	[02;34m I[25-21]	8
+(B[m	[02;34m I[20-16]	11
+(B[m	[02;34m I[15-11]	A
+(B[m	[02;34m I[15-0]	22
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		2
+(B[m	[02;32m AluOperation	6
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	7C
+(B[m	[02;34m Read_data2	0
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	7C
+(B[m	[02;34m AluResult	7C
+(B[m	[02;34m ImmEst		C
+(B[m	[02;34m ImmEstAj	30
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	3
+(B[m	[02;34m TempoInstr	8 ns
+(B[m	[02;34m TempoTotal	C1C ns
+(B[m
+	[01;30m Instrucão	sw $t2,12($t1) 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		4
+(B[m	[02;34m I[31-0]	AD2A000C
+(B[m	[02;34m I[31-26]	2B
+(B[m	[02;34m I[25-21]	9
+(B[m	[02;34m I[20-16]	A
+(B[m	[02;34m I[15-11]	0
+(B[m	[02;34m I[15-0]	C
+(B[m	[02;32m RedDst		1
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	1
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		0
+(B[m	[02;32m AluOperation	2
+(B[m	[02;32m AluSrc		1
+(B[m	[02;32m RegWrite	0
+(B[m	[02;34m Read_data1	3
+(B[m	[02;34m Read_data2	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m AluResult	F
+(B[m	[02;34m ImmEst		C
+(B[m	[02;34m ImmEstAj	30
+(B[m	[02;34m Zero		0
+(B[m	[02;34m QuantInstrt	4
+(B[m	[02;34m TempoInstr	B ns
+(B[m	[02;34m TempoTotal	100F ns
+(B[m
+	[01;30m Instrucão	slt $s1,$t2,$t0 
+(B[m			[01;30m -----------------####Saida###---------------
+(B[m	[01;30m PC		5
+(B[m	[02;34m I[31-0]	10A882A
+(B[m	[02;34m I[31-26]	0
+(B[m	[02;34m I[25-21]	A
+(B[m	[02;34m I[20-16]	8
+(B[m	[02;34m I[15-11]	11
+(B[m	[02;34m I[15-0]	2A
+(B[m	[02;32m RedDst		0
+(B[m	[02;32m Branch		0
+(B[m	[02;32m MemRead	0
+(B[m	[02;32m MemWrite	0
+(B[m	[02;32m MemtoReg	0
+(B[m	[02;32m AluOp		2
+(B[m	[02;32m AluOperation	7
+(B[m	[02;32m AluSrc		0
+(B[m	[02;32m RegWrite	1
+(B[m	[02;34m Read_data1	7C
+(B[m	[02;34m Read_data2	7C
+(B[m	[02;34m Read_data	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+(B[m	[02;34m Write_Data	0
+(B[m	[02;34m AluResult	0
+(B[m	[02;34m ImmEst		C
+(B[m	[02;34m ImmEstAj	30
+(B[m	[02;34m Zero		1
+(B[m	[02;34m QuantInstrt	5
+(B[m	[02;34m TempoInstr	8 ns
+(B[m	[02;34m TempoTotal	13F7 ns
+(B[m
