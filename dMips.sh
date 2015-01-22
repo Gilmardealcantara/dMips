@@ -471,7 +471,7 @@ imprime(){
 #--------------------------------------
 principal(){
     TempoTotal=0;                                   #inicia o contador de tempo antes de executar o codigo    
-    echo "" > ${saida}                          # limpa o arquivo de saida
+    echo "" > ./saida.txt                          # limpa o arquivo de saida
     read PC < $1                                #pc vai aumentar de 1 em 1 pois a memoria esta de 1 em 1 e com 34 bits ?    
     numLinhas=`wc -l $1 | cut -d' ' -f1`        # vai de 1 ate a quantidade de linhas do arquivo
     for((a=1; a <= $numLinhas; a++))            #variavel i o barramento modifica     
@@ -486,6 +486,7 @@ principal(){
                     
         if [ "$line" != "$PC"  ]; then
             barramento
+            imprime $3  >> ${saida}             #redireciona a impreçao para o arquivo desaida ./saida.txt         
             imprime $3                          #recebe o tipo de inmpressao mostra na tela
             if [ $2 == I ]; then                # se for o modo interativo pede o enter 
                 if [ $a -ne $numLinhas ]; then
@@ -498,7 +499,6 @@ principal(){
             fi
                                                          
         fi
-        imprime $3  >> ${saida}                 #redireciona a impreçao para o arquivo desaida ./saida.txt     
     done
 }
 
